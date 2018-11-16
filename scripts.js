@@ -68,7 +68,6 @@ function populateField(matr){
       div.setAttributeNode(id);
       parent.appendChild(div); 
       div.innerHTML = "<p>" + matr[i][j] + "</p>";
-      // parent = document.getElementById(matr[i][j]);
     }
   }
 }
@@ -79,7 +78,6 @@ function runAnimation(ordArr) {
     let nodeID = ordArr[i];
     let node = document.getElementById(nodeID);
     let att = document.createAttribute("class");
-    console.log(document.getElementById(nodeID)); 
     att.value = "inner-cell lit-up"; 
     setTimeout(function () { 
       node.setAttributeNode(att)

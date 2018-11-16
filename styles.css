@@ -15,7 +15,6 @@
 }
 
 #animation-field {
-  
   font-size: 1.5em;
   font-family: 'VT323', monospace;
   margin: auto;
@@ -49,6 +48,7 @@ button {
   min-height: 35px;
   min-width: 75px;
 }
+
 .start-btn {
   background-color: #a171ba;
 }
