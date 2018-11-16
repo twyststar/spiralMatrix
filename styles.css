@@ -1,0 +1,75 @@
+.main {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #313d3f;
+  padding: 3%;
+}
+
+.animation-container {
+  height: 600px;
+  width: 550px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5% 2%;
+  margin: auto;
+  background-color: #e0e4e5;
+}
+
+#animation-field {
+  
+  font-size: 1.5em;
+  font-family: 'VT323', monospace;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.inner-cell {
+  border: 1px solid black;
+  justify-content: center;
+  vertical-align: center;
+  padding: 34%;
+}
+
+.inner-cell p {
+  margin: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 3%;
+}
+
+button {
+  padding: 3px 12px;
+  border-radius: 3px;
+  min-height: 35px;
+  min-width: 75px;
+}
+.start-btn {
+  background-color: #a171ba;
+}
+
+.reset-btn {
+  background-color: #738fe2;
+}
+
+.output-field {
+  font-family: 'VT323', monospace;
+  text-align: center;
+  padding: 3px;
+  min-height: 50px;
+  min-width: 500px;
+  margin-top: 5%;
+  background-color: black;
+  color: #3fff52;
+}
+
+.lit-up {
+  background-color: black;
+  color: #3fff52;
+  border-color: #e0e4e5;
+}
