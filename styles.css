@@ -5,7 +5,6 @@
 }
 
 .animation-container {
-  height: 90vw;
   width: 75vw;
   border: 1px solid black;
   border-radius: 3px;
@@ -68,6 +67,12 @@ button {
   color: #3fff52;
 }
 
+.instructions {
+  border: 1px solid black;
+  padding: 2%;
+  margin-top: 1%;
+}
+
 .lit-up {
   background-color: black;
   color: #3fff52;
@@ -80,6 +85,10 @@ button {
     min-width: 50vw;
     margin-top: 25%;
     font-size: x-small;
+  }
+
+  .animation-container {
+    min-height: 90vw;
   }
 }
 
