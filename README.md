@@ -22,12 +22,13 @@ A build for a puzzle challenge. Given a matrix array with a spiral layout:
 
 ## The Matrix
 
-`const matrix = [
+```javascript
+const matrix = [
   [1,2,3,4,5],  
   [16,17,18,19,6],  
   [15,24,25,20,7],  
   [14,23,22,21,8],  
   [13,12,11,10,9]  
-]`
+]```
 
 ### Starlynne Start, 11-2018
